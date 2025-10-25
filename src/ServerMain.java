@@ -133,7 +133,7 @@ class ClientConnection extends Thread{
 
                     if (getpswd == null) output.println("~NO-ACC-FOUND");
 
-                    output.println(getpswd);
+                    else output.println(getpswd);
                 }
 
                 else output.println(data.get("password"));
